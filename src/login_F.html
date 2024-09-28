@@ -1,0 +1,52 @@
+<html>
+<head>
+    <link rel="stylesheet" href="login.css" />
+	<link rel="stylesheet" href="style_.css" />
+    <style>
+        .box {
+            width: 50%;
+            position: page;
+            padding: 20px;
+            margin: 20px;
+            background-color: gray;
+            border-radius: 5%;
+        }
+    </style>
+</head>
+<body style="background-image: url('images/student.jpg');background-repeat: no-repeat; background-size: cover;">
+		 <div class="header">
+  <h1>Welcome on Smart Attendance Manager!!!</h1>
+</div>
+		 <ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li class="dropdown">
+			<a  class="dropbtn">Log in</a>
+			<div class="dropdown-content">
+			  <a href="login_S.html">login as Student</a>
+			  <a href="login_A.html">login as Admin</a>
+			</div>
+		  </li>
+		</ul>
+    <center>
+        <br /><br />
+        <div class="box">
+            <h1>Faculty Login</h1>
+            <form action="login_F.php" method="post">
+                <div class="container">
+                    <h2>
+                        <label for="uname"><b>Faculty id: </b></label>
+                        <input type="text" placeholder="Enter Faculty id" name="uname" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                        <button type="submit">Login</button>
+                    </h2>
+                </div>
+                <button type="button" onclick="parent.location='index.html'" class="cancelbtn">Cancel</button>
+            </form>
+        </div>
+    </center>
+
+</body>
+</html>
