@@ -1,5 +1,4 @@
 # smart-attendance-manager
-(Old project)
 
 Attendance tracking using NFC enabled id cards to reduce hassel of mannual attendance tracking
 
